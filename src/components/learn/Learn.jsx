@@ -10,6 +10,7 @@ const Learn = () => {
       <div className="learn-tips">
         Tips for you
       </div>
+      <Footer/>
     </div>
   );
 };

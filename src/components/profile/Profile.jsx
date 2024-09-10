@@ -5,6 +5,7 @@ const Profile = () => {
   return (
     <div className='profile'>
       Profile Wrapper
+      <Footer/>
     </div>
   )
 }
