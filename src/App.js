@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Route,Routes } from 'react-router-dom';
+import Homepage from './components/Homepage';
+import SignUp from './components/SignUp';
+import Loadingpage from './components/Loadingpage';
+import Rewards from './components/Rewards.jsx'
+import Scan from './components/scan/Scan.jsx'
+import Scaned from './components/scan/Scaned.jsx';
+import ScanedLocation from './components/scan/ScanedLocation.jsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Routes>
+        <Route path='/' element={<Loadingpage/>}/>
+        <Route path='/homepage' element={<Homepage/>}></Route>
+        <Route path='/signup' element={<SignUp/>}/>
+        <Route path='/rewards' element={<Rewards/>}/>
+        <Route path='/scan' element={<Scan/>}/>
+        <Route path='/scan/scaned' element={<Scaned/>}/>
+        <Route path='/scanedlocation' element={<ScanedLocation/>}/>
+      </Routes>
     </div>
   );
 }
