@@ -17,7 +17,7 @@ function Rewards() {
             <div className='rewardid'>reward details</div>
             <div className='rewardid'>reward details</div>
             <Footer/>
-            </div>
+        </div>
     )
 }
 
