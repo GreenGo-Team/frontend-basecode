@@ -1,7 +1,7 @@
 # GreenGo frontend basecode
 components:  loadingpage, homepage, signup, signin, scan, scaned, scanedlocaton, profile, rewards, learn, learndetails, footer
 
-## dependencies
+## `dependencies`
 bootstrap.                                                                                                                                                                                                                             
 react-router.                                                                                                                                                                                                                         
 react web-cam.
