@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       
       <Routes>
-        <Route path='/GreenGo' element={<Loadingpage/>}/>
+        <Route path='/' element={<Loadingpage/>}/>
         <Route path='/homepage' element={<Homepage/>}></Route>
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/rewards' element={<Rewards/>}/>
