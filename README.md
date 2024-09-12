@@ -7,7 +7,7 @@ react-router.
 react web-cam.
 
 ## `live demo`
-
+https://greengo-team.github.io/frontend-basecode/
 
 ## `loadingpage component`
 logo of website load for 5 seconds and  navigate to sign up page if user doesn't have account, but if user have account and signed in it will navigate to homepage component
